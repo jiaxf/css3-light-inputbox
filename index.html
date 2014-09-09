@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<style type="text/css">
+	 @-webkit-keyframes  shineRed {
+	from { -webkit-box-shadow: 0 0 4px 2px #FCDCBE ; }
+	50% { -webkit-box-shadow: 0 0 10px 6px  #FCDCBE  ; }
+	to { -webkit-box-shadow: 0 0 4px 4px #FCDCBE  ; }
+	}
+	
+	.shine_red{
+	-webkit-animation-name: shineRed; 
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite; 
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+	border-radius:4px;
+    box-shadow: 0 0 0 #fff;
+    color: #808080;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 27px 0 0 24px;
+    padding: 5px;
+    width: 217px;
+	height:25px;
+	}
+	
+	.arrow_box {
+    border: 1px solid #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px #f8f8f8;
+    margin: 20px 0;
+    padding: 10px;
+    position: relative;
+	left:450px;
+	top:100px;
+	height:200px;
+	 
+	}
+	
+	.arrow_box:before{
+	border-color: rgba(244, 244, 244, 0) rgba(244, 244, 244, 0) #eee;
+    border-width: 12px;
+    left: 28px;
+    margin-left: -12px;
+	}
+	
+	.arrow_box:after {
+    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #fff;
+    border-width: 10px;
+    left: 28px;
+    margin-left: -10px;
+	}
+	.arrow_box:after, .arrow_box:before {
+    border: medium solid transparent;
+    bottom: 100%;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+	}
+	
+	.button{
+	background:#71C5A3    ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #313639;
+    font-family: "microsoft yahei",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    padding: 8px 10px 8px 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #777;
+	position:absolute;
+	top:155px;
+	left:30px;
+	width:80px;
+	height:20px;
+	color:white;
+	}
+	a:hover{
+		background:#007147;
+		color:white;
+	}
+	</style>
+</head>
+<body>
+	<div class="arrow_box" style="background:#fff;float:left;width:470px;margin-top:0px;">
+		 <input type="text" class="shine_red" placeholder="电子邮件" style="background:none 0% 0% transparent"/>
+		 <input type="text" class="shine_red" placeholder="用户名称" style="background:none 0% 0% transparent"/> 
+		<a href="http://segmentfault.com/u/trigkit4" class="button">立即注册</a>
+	</div>
+</body>
+</html>
